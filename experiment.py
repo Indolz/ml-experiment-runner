@@ -61,6 +61,5 @@ class RegularisedExperiment(MLExperiment):
     
     def __repr__(self) -> str:
         return (f"RegularisedExperiment(name={self.name!r}, "
-                f"lr={self.learning_rate}, λ={self.lambda_reg})")
-    
+                f"lr={self.learning_rate}, λ={self.lambda_reg})")   
 
