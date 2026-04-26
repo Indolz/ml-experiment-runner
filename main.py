@@ -1,6 +1,6 @@
 import argparse
 import json
-from experiment import MLExperiment, RegularisedExperiment
+from ml_runner import MLExperiment, RegularisedExperiment
 
 def parse_args():
     parser = argparse.ArgumentParser(

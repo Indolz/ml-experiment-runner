@@ -1,4 +1,4 @@
-from data_loader import batch_generator
+from ml_runner import batch_generator
 
 # Simulate a data set of 10 items, process in batches of 3
 dataset = list(range(10))
